@@ -1,0 +1,1047 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+ -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+  background-image: url(./images/light.png);
+}
+
+body{
+font-family: 'Avenir', Helvetica, sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+
+  text-decoration: none;
+  box-sizing: inherit;
+}
+
+#navbar_menu {
+  width: 100%;
+}
+
+/*dropdown*/
+.dropdown {
+  width: 165px;
+}
+
+.dropdown .dropdown-btn {
+  height: 35px;
+  background-color: white;
+  border: none;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+
+  margin: 10px;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+.dropdown .dropdown-content{
+  width: 135px;
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  color: gray;
+  text-decoration: none;
+  text-align: start;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+
+}
+
+.dropdown-item {
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+
+#down {
+  width: 8px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#navText{
+  font-size: 9px;
+}
+
+.selected{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #4ADE80;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+.nav-icon{
+  margin-right: 10px;
+}
+
+
+
+/* HEADER */
+
+
+.imgLogo {
+  width: 179px;
+ margin-left: 20px;
+ margin-top: 10px;
+  display: inline;
+  float: left;
+}
+
+#head {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#notConnect_wallet{
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 14px;
+
+
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: 500;
+
+  }
+
+  .menuButton {
+    height: 35px;
+    background-color: white;
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+
+    margin: 10px;
+    font-weight: 500;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+  }
+
+
+  #Vector {
+    align-items: center;
+    height: 15px;
+    margin-top: auto;
+  }
+
+#sun{
+  width: 35px;
+  height: 35px;
+  display: block ;
+}
+
+#nautilusimg {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+/* sidebar */
+.net{
+  width: 55px;
+  height: 17px;
+  border-radius: 5px;
+  background-color: #FAEDEC;
+  color: #84312D;
+  font-size: 9px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sidebar {
+  border-radius: 16.5px;
+  width: 220px;
+  display: table;
+  text-align: left;
+  padding: 15px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 18rem 5rem;
+  position: absolute;
+  background-color: white;
+  max-width: 100%;
+  height: 300px;
+  align-items: center;
+}
+
+.btnM {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  text-align: left;
+  margin: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-left: 10px
+}
+
+#linkImg {
+  width: 9px;
+  height: 8px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+#menuHR {
+  width: 90%;
+  height: 1px;
+  background-color: black;
+  border-radius: 2px;
+  text-align: left;
+  margin-top: -20px;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 30%;
+}
+/* BODY */
+
+.mainmenu {
+position: fixed;
+background-color: white;
+width: 650px;
+display: table;
+border-radius: 15px;
+overflow: auto;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+margin: 210px auto;
+height: 500px;
+
+}
+
+.mainmenu_feedback {
+  position: fixed;
+  background-color: white;
+  width: 500px;
+  display: table;
+  padding: 10px;
+  border-radius: 15px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 320px auto;
+
+  }
+
+
+.feedback-page > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.feedback-page > h1 {
+  position: fixed;
+  margin-top: 8%;
+  margin-left: 45.5%;
+
+}
+
+.feedback-page__content-btn {
+  padding: 25px;
+  padding-top: 25px;
+  box-shadow: 10 0 99px hsl(0deg 0% 46% / 16%);
+  transition: .2s;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+
+  background: #BCD4F2;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.feedback-page__content-btn_op {
+  padding: 25px;
+  padding-top: 25px;
+  box-shadow: 10 0 99px hsl(0deg 0% 46% / 16%);
+  transition: .2s;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border-radius: 25px;
+
+  background: #BCD4F2;
+  width: 40%;
+  margin-left: 25%;
+  margin-top: 6%;
+}
+
+/* TRANSACTIONS */
+
+.mainmenu_transaction {
+  font-family: 'Prompt', sans-serif;
+  background-color: white;
+  border-radius: 15px;
+  width: 1189px;
+  height: 664px;
+  margin: auto;
+  padding: 10px 30px;
+  text-align: left;
+  position: absolute; /*Can also be `fixed`*/
+  left: 360px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.transactionTitle1 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.transactionTitle2 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 50px;
+}
+.title {
+  font-size: 12.5px;
+  color: #575757;
+}
+
+.title2 {
+  font-size: 12.5px;
+  color: #575757;
+  text-align: left;
+  margin-left: 27px;
+}
+table {
+
+border-bottom: 1px solid black;
+}
+tr {
+
+}
+ td {
+  font-size: 12px;
+  padding: 10px;
+  text-align: left;
+  width: 29.3%;
+
+}
+
+.menuTr {
+  padding: 20px;
+}
+
+/* DASHBOARD */
+
+
+
+.menu_dashboard {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  ;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 450px;
+  grid-gap: 50px;
+
+}
+
+
+.menu_dashboard > div {
+  background-color: white;
+  border-radius: 10px;
+  height: 320px;
+}
+.menu_dashboard > .info2 {
+  height: 120px;
+}
+
+.round {
+  width: 12em;
+  height: 12em;
+  border: 3px solid #339AD3;
+  border-radius: 50%;
+  padding: 1.4644em;  /* или padding: calc((100% - 100% / 1.4142) / 2);, где 100% = 10em — это значение width, а √2 ≈ 1.4142 */
+  box-sizing: border-box;  /* чтобы padding не увеличивал ширину и высоту элемента */
+  background: rgb(255, 255, 255);
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.round > h4 {
+  font-size: 20px;
+  color: #339AD3;
+}
+
+.number1 {
+  font-size: 20px;
+  color: #339AD3;
+}
+
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+#counter1 {
+  animation: counter 3s alternate ease-in-out;
+  counter-reset: num var(--num);
+
+
+}
+#counter1::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+
+  to {
+    --num: 231;
+  }
+}
+
+
+
+/* BRIDGE */
+
+#content1 {
+  font-family: 'Prompt', sans-serif;
+  background-color: #F1F6FF;
+  border-radius: 20px;
+  width: 643px;
+position: fixed;
+  display: table;
+  margin: 170px auto;
+  text-align: center;
+  
+  left: 20px;
+  right: 0;
+  top: 20px;
+  bottom: 0;
+  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.btcInput {
+  width: 560px;
+  background-color: #DBE4F6;
+  border: none;
+  border-radius: 10px;
+  height: 98px;
+  font-size: 38px;
+
+}
+
+.btcInput[type=text] {
+
+padding: 0px 20px;
+
+}
+
+.btcInputAddress {
+  width: 560px;
+  background-color: #DBE4F6;
+  border: none;
+  border-radius: 10px;
+  height: 47px;
+  font-size: 16px;
+
+}
+
+.btcInputAddress[type=text] {
+
+padding: 0px 20px;
+
+}
+
+.calling {
+
+position: absolute;
+margin-top: 160px;
+margin-left: 36%;
+
+}
+
+.mainButton {
+  width: 609px;
+  height: 65px;
+  background-color: #A6C6FA;
+  border: none;
+  border-radius: 15px;
+  margin-top: 16%;
+  font-size: 16px;
+}
+
+#radios {
+  position: relative;
+  background-color: #DDDDDD;
+  z-index: 5;
+  width: 609px;
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+
+}
+#radios > input {
+
+    display: none;
+
+}
+
+#bckgrnd,
+.labels {
+  width: 304.5px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: -3px;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.labels > b {
+
+}
+#bckgrnd {
+  background-color: #A6C6EC;
+  position: absolute;
+  left: 0;
+ margin-top: 0px;
+  z-index: -1;
+}
+
+#rad1:checked ~ #bckgrnd {
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 10px;
+}
+#rad2:checked ~ #bckgrnd {
+  transform: translateX(304.5px);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.lblInp {
+  position: absolute;
+  margin-left: 84%;
+  clear:both; text-align:right;
+  margin-top: -80px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.lblInp2 {
+  position: absolute;
+  margin-left: 82%;
+  clear:both; text-align:right;
+  margin-top: -80px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.left {
+  text-align: left;
+
+}
+
+.right {
+  text-align: right;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container > div {
+  width: 240px;
+  height: 40px;
+  margin: auto;
+  line-height: 95px;
+  font-size: 17px;
+}
+
+#menuHR1 {
+width: 90%;
+margin-top: 40px;
+  text-align: left;
+
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.menu-item:hover {
+  background-color: rgba(62, 132, 215, 0.46);
+}
+
+
+ul{
+  padding-inline-start: 0px;
+}
+
+.menu-icon {
+  width: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*POPUP */
+
+.mainPopup {
+  background-color: grey;
+  width: 100%;
+  height: 1120px;
+  position: absolute;
+  top: 0%;
+  z-index: 6;
+    background-color: rgba(128,128,128,0.208);
+}
+
+.popup {
+  height: 750px;
+  width: 545px;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  top: 10%;
+  opacity: 100%;
+  border-radius: 16.5px;
+  right: 34.3%;
+}
+
+
+.divLabel {
+  height: 63px;
+  border-radius: 16.5px;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
+}
+.labelMain {
+  font-size: 32px;
+
+
+}
+
+.menuPopup {
+  height: 88%;
+  border-bottom-right-radius: 16.5px;
+  border-bottom-left-radius: 16.5px;
+  width: 100%;
+  background-color: #EEF4FF;
+}
+
+#bitcoin {
+  width: 27px;
+  height: 27px;
+
+}
+
+div > .addressBTC {
+
+width: 90%;
+    height: 40px;
+    background-color: #EEF4FF;
+  border: 3px solid #2C83BC;
+  border-radius: 11px;
+  margin-left: 25px;
+left: 50%;
+
+
+
+}
+
+.addressBTC > .labelAdd {
+font-size: 17.5px;
+margin-top: 8px;
+}
+
+.btnPayment {
+  width: 90%;
+  height: 58px;
+  border-radius: 11px;
+  background-color: #BEDAFF;
+  border: 0;
+  margin-top: 27px;
+  font-size: 20px;
+}
+
+
+.attention {
+text-align: center;
+width: 91%;
+font-size: 16.5px;
+padding: 0px 20px 0px 20px;
+}
+
+.note {
+  font-size: 13px;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.SingleTrans1 {
+  font-size: 20px;
+}
+.SingleTrans2 {
+  font-size: 18px;
+}
+.timing {
+font-size: 13px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.qr {
+  width: 154px;
+  height: 154px;
+}
+#WRAP {
+  height: 520px;
+}
+#UNWRAP {
+  height: 618px;
+
+}
+
+#bit {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -40px;
+
+}
+
+.right {
+
+
+}
+
+
+.main-block {
+  width: 1189px;
+  height: 800px;
+  margin: 170px 25%;
+  text-align: left;
+  position: absolute;; /*Can also be `fixed`*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.page-topic {
+  font-size: 28px;
+  margin-left: 10px;
+}
+
+.content-block {
+  background-color: white;
+  border-radius: 15px;
+  width: 1189px;
+  height: 664px;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.gradient-button {
+  width: 418px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(86.72deg, #BCD4F2 -17.81%, #E2D8FA 138.37%);
+  border-radius: 20px;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(86.72deg, #9abcf5 -17.81%, #c9b4fd 138.37%);
+}
+
+#operate-button {
+  margin-top: 10%;
+}
+
+.vault-set-up {
+  width: 544px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vault-set-up-text {
+  text-align: center;
+}
+
+.vault-amount-block {]
+  width: 544px;
+  height: 157px;
+
+  border: 0.88px solid #5C5C5C;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vault-amount-text {
+  width: 544px;
+}
+
+#p {
+  margin-left: 55px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+
+}
+
+.vault-input-block {
+  width: 457px;
+  height: 48px;
+
+  background: #FBFCFF;
+  border: 4px solid #74C8FF;
+  border-radius: 22px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.vault-input {
+  width: 457px;
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.vault-input:active {
+  border: none;
+  outline: none;
+}
+
+#vault-icon {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.vault-deposit-text {
+  font-size: 32px;
+  text-align: center;
+}
+
+.send-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.transaction-text {
+  text-align: center;
+}
+
+.transaction-input {
+  width: 509px;
+  height: 44px;
+  border: 3px solid #2C83BC;
+  border-radius: 11px;
+
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.time-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#time-text {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.qr1 {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 180px;
+}
+
+.blue-button {
+  width: 511px;
+  height: 58px;
+
+  background: #BEDAFF;
+  border-radius: 11px;
+
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vault-deposit {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around ;
+}
+
+.my-vault-block {
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+.my-vault-text {
+  font-weight: bold;
+  text-align: center;
+}
+
+.my-vault-info {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.my-vault-info-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my-vault-but {
+  display: flex;
+  justify-content: center;
+}
+
+
+                    
+                    
+.btnNautilus{
+}

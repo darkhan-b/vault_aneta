@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+
+
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          height: 1120px;
+
+}
+.show-counter {
+
+}
+
+.show-counter .countdown-link {
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;text-decoration: none;
+
+}
+
+.btnCrypt {
+  border-radius: 12px;
+  width: 100px;
+  background-color: rgba(190,218,255,1);
+  border: 0;
+  height: 24px;
+}
